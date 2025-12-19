@@ -85,3 +85,8 @@ li button {
 li button:last-child {
   background: #ef4444;
 }
+
+p{
+  margin: 5px;
+  font-size: 12px;
+}
