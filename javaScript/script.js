@@ -6,12 +6,12 @@ button.addEventListener('click', () => {
     if (!input.value.trim()) return
 
     const li = document.createElement('li')
-    const text = document.createElement('p')
+    const text = document.createElement('span')
     const edit = document.createElement('button')
     const remove = document.createElement('button')
     text.textContent = input.value
     edit.textContent = "edit"
-    remove.textContent = "remove"
+    remove.textContent = "delete"
 
     edit.addEventListener('click',()=>{
         if(edit.textContent==='edit'){
